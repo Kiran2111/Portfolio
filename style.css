@@ -1,0 +1,176 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #64cce6, #196edc);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+  
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+
+.my-intro .container{
+    height: 96vh;
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    align-items: center;   
+}
+.my-intro  .container img{
+    height: 300px;
+    border: 5px solid black;
+    border-radius: 50%;
+}
+.conatainer h1{
+    font-size: 60px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 160px;
+}
+.my-intro h5{
+    padding-top: 40px;
+    padding-left: 200px;
+    padding-right: 200px;
+    text-align: justify;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+
+
+
+
+
+.about-me{
+    height: 80vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 40px;
+    margin-top: 60px;
+}
+.left {
+    margin-left: 80px;
+    width: 100%;
+}
+.right{
+    margin-right: 30px;
+    width: 100%;
+}
+.about-me img{
+    border: 3px solid black;
+    height: 300px;
+    width: 250px;
+    float: left;
+    margin-right: 50px;
+}
+.about-me .left h3{
+    border: 1px solid rgb(143, 19, 87);
+    padding: 6px;
+    margin-bottom: 70px;
+    background-color: #6ac9e9;
+    width: 30%;
+    border-radius: 10px;
+}
+.about-me .right h3{
+    border: 1px solid rgb(143, 19, 87);
+    padding: 6px;
+    margin-bottom: 70px;
+    background-color: #6ac9e9;
+    width: 46%;
+    border-radius: 10px;
+}
+.about-me h5{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 40px;
+    padding-right: 100px;
+}
+
+
+
+
+
+.about-linkedin{
+     padding: 100px;
+    background-color: rgb(210, 206, 202);
+    padding-bottom: 130px;
+}
+.about-linkedin img{
+    border: 5px solid black;
+    margin-right: 40px;
+    margin-left: 40px;
+    height: 350px;
+    float: left;
+}
+.linkedin h5{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 40px;
+    padding-right: 100px;
+    font-size: 18px;
+}
+
+
+.my-hobbies{
+    height: 100vh;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.my-hobbies h1{
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    color: rgb(48, 16, 16);
+    background-color: rgb(151, 176, 113);
+
+}
+
+.hobby{
+    margin-left: 80px;
+    margin-top: 70px;
+    margin-bottom: 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 60px;
+
+}
+
+.box img{
+    height: 200px;
+    width: 300px;
+}
+
+
+
+.Thank-you{
+    margin: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Thank-you img{
+    height: 400px;
+    border: 3px solid rgb(97, 95, 95);
+
+}
+
+
+.Thank-you h3{
+    margin-top: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
